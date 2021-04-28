@@ -1,1 +1,73 @@
 /* Other rules */
+.container {
+  height: 700px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* div {
+  border: solid 2px black;
+} */
+
+.div1 {
+  /* background-color: green; */
+  height: 311px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.div2 {
+  height: 145px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 6px;
+  font-size: 48px;
+}
+
+.noWay {
+  background-color: #d34848;
+}
+
+.go {
+  background-color: #46ac4a;
+}
+
+.switch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.switch button {
+  height: 70px;
+  width: 120px;
+  font-size: 36px;
+  border-color: #908f8f;
+  border-radius: 6px;
+}
+
+.reset {
+  height: 70px;
+  width: auto;
+  font-size: 36px;
+  border-color: #908f8f;
+  border-radius: 6px;
+  background-color: white;
+  color: #5c48d3;
+}
+
+.unpush {
+  background-color: white;
+  color: #5c48d3;
+}
+
+.push {
+  background-color: #5c48d3;
+  color: white;
+}
